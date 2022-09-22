@@ -17,29 +17,5 @@ type CrudRepoService struct {
 	db *sql.DB
 }
 
-func (c *CrudRepoService) Save(schema schema.Schema, tx *sql.Tx) error {
-
-}
-
-func (c *CrudRepoService) Delete(schema schema.Schema, tx *sql.Tx) error {
-	panic("implement me")
-}
-
-func (c *CrudRepoService) Update(schema schema.Schema, tx *sql.Tx) error {
-	panic("implement me")
-}
-
-func (c *CrudRepoService) GetById(schema schema.Schema, tx *sql.Tx) error {
-	panic("implement me")
-}
-
-func (c *CrudRepoService) RawQuery(query string, schemaCastBack interface{}) error {
-	panic("implement me")
-}
-
-func parseToInsertQuery() (query string, args []interface{}){
-
-}
-
 
 
